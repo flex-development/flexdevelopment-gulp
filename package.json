@@ -1,0 +1,18 @@
+{
+  "name": "flexdevelopment-gulp",
+  "description": "Web and mobile projects completed by designer and developer, Lexus Drumgold. My name is Lexus Drumgold, but most people call me Lex. As both a designer and developer, I use industry standard techniques and practices to implement creative web and mobile solutions.",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.7",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^3.1.0"
+  }
+}

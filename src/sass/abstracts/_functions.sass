@@ -1,0 +1,20 @@
+// functions
+
+// convert pixels to ems
+@function px-to-em($px)
+  @if unitless($px)
+    $px: $px * 1px
+
+  @return #{$px / 16px}em
+
+// get breakpoints from breakpoint map
+@function breakpoint($breakpointName)
+  @if global-variable-exists(breakpoints)
+    @if map-has-key($breakpoints, $breakpointName)
+      $breakpoint: map-get($breakpoints, $breakpointName)
+
+      @return px-to-em($breakpoint)
+    @else
+      @error 'Sorry, #{$breakpointName} does not exist in the map $breakpoints.'
+  @else
+    @error 'Sorry, the map $breakpoints does not exist.'
