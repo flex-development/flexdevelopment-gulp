@@ -48,4 +48,5 @@ gulp.task('server', () => {
   });
 });
 
+gulp.task('build', gulp.parallel('sass', 'babel', done => done()));
 gulp.task('default', gulp.parallel('watch', 'server', done => done()));
