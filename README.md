@@ -4,7 +4,7 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 #### Overview
-[What is Flex Development?](#what-is-flex-development)
+[What is Flex Development?](#what-is-flex-development)  
 [Getting Started](#getting-started)  
 [Development](#development)  
 [Deployment](#deployment)  
