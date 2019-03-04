@@ -32,7 +32,7 @@
   <title>Hi, I'm Lex :) | Flex Development</title>
 </head>
 
-<body class='home' onload='getThemeFromStorage()'>
+<body class='home' onload='get_theme_from_storage()'>
   <!-- no script warning -->
   <noscript>
     You need to enable JavaScript to run this app.
@@ -42,7 +42,7 @@
   <header>
     <div class='container'>
       <!-- toggle theme button -->
-      <button class='button-toggle-theme' onclick='toggleTheme()'>
+      <button class='button-toggle-theme' onclick='toggle_theme()'>
         <i class='far fa-moon button-toggle-theme-icon'></i>
       </button>
     </div>
@@ -161,7 +161,7 @@
               <li class='accordion-section-item'>
                 I offer design and development for web and mobile
                 projects, as well as maintenace and training services. Project
-                pricing is fixed and dependent upon project scope and client
+                pricing is dependent upon project scope and client
                 budget. Don't let a fixed budget stop you from a great project!
               </li>
             </ul>
@@ -178,7 +178,10 @@
                 <ol>
                   <li>
                     <span>Get in touch with me!</span><br>
-                    Send an email to <a href='mailto:lex@lexusdrumgold.design'>lex@lexusdrumgold.design</a>
+                    Send an email to
+                    <a href='/email'>
+                      lex@lexusdrumgold.design
+                    </a>
                     with your name, your budget, the name of your project, your
                     ideal timeframe for the project, and a thorough project description. Please allow up to 24 hours for
                     a response. I check my email Monday through Friday, from 9am to 5pm.
@@ -189,7 +192,7 @@
                     This can be done remotely (via
                     Slack video call) or in person (depending on
                     location). During this time we will go over the details of
-                    your projectand decide if I'm a good fit. Should
+                    your project and decide if I'm a good fit. Should
                     we decide to work together, a detailed project plan,
                     including pricing, timeframe, and deliverables will be
                     developed. The consultation fee will then be credited to
@@ -197,11 +200,11 @@
                     <br>
                     <p>
                       Schedule an appointment:
-                      <a href="https://calendly.com/flexdevelopment/remote">
+                      <a href="/scheduling?type=remote" target="_blank">
                         Remote
                       </a>
                       |
-                      <a href="https://calendly.com/flexdevelopment/onsite">
+                      <a href="/scheduling?type=onsite" target="_blank">
                         Onsite
                       </a>
                     </p>
@@ -239,8 +242,8 @@
             Want to know more?
           </p>
           <p>
-            To view my projects, <a href='https://github.com/lexusdrumgold' target='_blank'>check out my Github;</a> to
-            get in touch with me, <a href='mailto:lex@lexusdrumgold.design'>shoot me an email.</a>
+            To view my projects, <a href='/github' target='_blank'>check out my Github;</a> to get in touch with me, <a
+              href='/email'>shoot me an email.</a>
           </p>
           <p>
             <span>Note:</span> Online payments are processed via PayPal.
@@ -256,22 +259,22 @@
   <footer>
     <div class='container'>
 
-      <a class='footer-link' href='https://calendly.com/flexdevelopment/' target='_blank'>
+      <a class='footer-link' href='/scheduling' target='_blank'>
         Scheduling
       </a>
 
-      <a class='footer-link' href='https://www.linkedin.com/in/lexusdrumgold/' target='_blank'>
+      <a class='footer-link' href='/linkedin' target='_blank'>
         LinkedIn
       </a>
 
-      <a class='footer-link' href='https://www.godaddy.pro/flexdevelopment' target='_blank'>
+      <a class='footer-link' href='/godaddy' target='_blank'>
         GoDaddy Pro
       </a>
 
       <!-- gitub button from https://buttons.github.io/ -->
       <a class='footer-link github-button' href='https://github.com/lexusdrumgold' target='_blank' data-size='large'
-        aria-label='Follow @lexusdrumgold on GitHub'>Follow
-        @lexusdrumgold
+        aria-label='Follow @lexusdrumgold on GitHub'>
+        Follow @lexusdrumgold
       </a>
     </div>
   </footer>

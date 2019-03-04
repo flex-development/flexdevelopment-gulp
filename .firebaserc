@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "flexdevelopmentllc"
+  },
+  "targets": {
+    "flexdevelopmentllc": {
+      "hosting": {
+        "staging": [
+          "staging-fdllc"
+        ],
+        "production": [
+          "flexdevelopmentllc"
+        ]
+      }
+    }
+  }
+}

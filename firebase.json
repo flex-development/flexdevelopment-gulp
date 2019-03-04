@@ -1,0 +1,102 @@
+{
+  "hosting": [
+    {
+      "target": "staging",
+      "public": "public",
+      "predeploy": [
+        "npm run build"
+      ],
+      "redirects": [
+        {
+          "source": "/email",
+          "destination": "mailto:lex@lexusdrumgold.design",
+          "type": 301
+        },
+        {
+          "source": "/scheduling?type=onsite",
+          "destination": "https://calendly.com/flexdevelopment/onsite",
+          "type": 301
+        },
+        {
+          "source": "/scheduling?type=remote",
+          "destination": "https://calendly.com/flexdevelopment/remote",
+          "type": 301
+        },
+        {
+          "source": "/scheduling",
+          "destination": "https://calendly.com/flexdevelopment/",
+          "type": 301
+        },
+        {
+          "source": "/linkedin",
+          "destination": "https://www.linkedin.com/in/lexusdrumgold/",
+          "type": 301
+        },
+        {
+          "source": "/godaddy",
+          "destination": "https://www.godaddy.pro/flexdevelopment",
+          "type": 301
+        },
+        {
+          "source": "/facebook",
+          "destination": "https://www.facebook.com/flexdevllc/",
+          "type": 301
+        },
+        {
+          "source": "/github",
+          "destination": "https://github.com/lexusdrumgold",
+          "type": 301
+        }
+      ]
+    },
+    {
+      "target": "production",
+      "public": "public",
+      "predeploy": [
+        "npm run build"
+      ],
+      "redirects": [
+        {
+          "source": "/email",
+          "destination": "mailto:lex@lexusdrumgold.design",
+          "type": 301
+        },
+        {
+          "source": "/scheduling?type=onsite",
+          "destination": "https://calendly.com/flexdevelopment/onsite",
+          "type": 301
+        },
+        {
+          "source": "/scheduling?type=remote",
+          "destination": "https://calendly.com/flexdevelopment/remote",
+          "type": 301
+        },
+        {
+          "source": "/scheduling",
+          "destination": "https://calendly.com/flexdevelopment/",
+          "type": 301
+        },
+        {
+          "source": "/linkedin",
+          "destination": "https://www.linkedin.com/in/lexusdrumgold/",
+          "type": 301
+        },
+        {
+          "source": "/godaddy",
+          "destination": "https://www.godaddy.pro/flexdevelopment",
+          "type": 301
+        },
+        {
+          "source": "/facebook",
+          "destination": "https://www.facebook.com/flexdevllc/",
+          "type": 301
+        },
+        {
+          "source": "/github",
+          "destination": "https://github.com/lexusdrumgold",
+          "type": 301
+        }
+      ]
+    }
+  ]
+}
