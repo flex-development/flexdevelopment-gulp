@@ -8,6 +8,11 @@
       ],
       "redirects": [
         {
+          "source": "/workspace",
+          "destination": "https://www.notion.so/flexdevelopment/Lexus-Drumgold-Flex-Development-9b431c12171547b1ba1516ed3b7d45f5",
+          "type": 301
+        },
+        {
           "source": "/email",
           "destination": "mailto:lex@lexusdrumgold.design",
           "type": 301
@@ -56,6 +61,11 @@
         "npm run build"
       ],
       "redirects": [
+        {
+          "source": "/workspace",
+          "destination": "https://www.notion.so/flexdevelopment/Lexus-Drumgold-Flex-Development-9b431c12171547b1ba1516ed3b7d45f5",
+          "type": 301
+        },
         {
           "source": "/email",
           "destination": "mailto:lex@lexusdrumgold.design",
