@@ -17,7 +17,7 @@
     "serve-production": "npm run build && firebase serve --only hosting:production",
     "deploy-staging": "firebase deploy --only hosting:staging",
     "deploy-production": "firebase deploy --only hosting:production",
-    "eject": "react-scripts eject"
+    "deploy": "npm run deploy-staging && npm run deploy-production"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

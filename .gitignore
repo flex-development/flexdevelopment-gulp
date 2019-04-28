@@ -1,5 +1,13 @@
 # Created by https://www.gitignore.io/api/node,adobe,macos
 
+### Firebase ###
+.idea
+**/node_modules/*
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
 ### Adobe ###
 # Adobe Source Files
 *.psd
