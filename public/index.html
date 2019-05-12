@@ -20,7 +20,6 @@
   <meta name='msapplication-config' content='/assets/img/favicons/browserconfig.xml'>
   <meta name='theme-color' content='#ffffff'>
 
-
   <!-- stylesheet -->
   <link rel='stylesheet' href='main.min.css'>
 
@@ -29,8 +28,10 @@
     integrity='sha384-yBZ34R8uZDBb7pIwm+whKmsCiRDZXCW1vPPn/3Gz0xm4E95frfRNrOmAUfGbSGqN'
     crossorigin='anonymous'></script>
 
-  <title>Hi, I'm Lex :) | Flex Development</title>
+  <title>Hi, I'm Lex :) | Flex Development, LLC</title>
 </head>
+
+<!-- FIXME: ReferenceError: get_theme_from_storage is not defined -->
 
 <body class='home' onload='get_theme_from_storage()'>
   <!-- no script warning -->
@@ -38,15 +39,18 @@
     You need to enable JavaScript to run this app.
   </noscript>
 
-  <!-- header -->
+
   <header>
     <div class='container'>
-      <!-- toggle theme button -->
+      <!-- 
+      FIXME: ReferenceError: toggle_theme is not defined
       <button class='button-toggle-theme' onclick='toggle_theme()'>
         <i class='far fa-moon button-toggle-theme-icon'></i>
       </button>
+      -->
     </div>
   </header>
+
 
   <!-- main content -->
   <main>
@@ -62,27 +66,19 @@
           Hi, I'm Lex :)
         </h1>
         <p class='subheading'>
-          I'm a developer and designer specializing in web and mobile projects.
+          I'm a designer and developer dedicated to crafting superior digital experiences.
         </p>
         <p class='blurb'>
-          My name is Lexus Drumgold, but most people call me Lex. As both a
-          designer and JavaScript developer, I'm dedicated to crafting superior digital experiences.
-          <br />
-          <br />
-          My design experience includes using Adobe Creative Suite, Sketch, and UXPin to wireframe and prototype, as
-          well as
-          create simple, yet aesthetically pleasing identity palettes and design systems. Leverage a FERN stack -
-          Firebase,
-          Express, React (Native too!), & Node, I bring my designs to life as well.
-          <br />
-          <br />
-          Over the years, I've worked on a plethora of projects, in which I not only created or integrated a cohesive
-          brand
-          identity, but increased brand value as well. When I'm not designing or developing, I participate in design
-          critiques and
-          code reviews, as well as business strategy meetings, to assess both contribution to project goals and
-          adherence to
-          industry standards as well.
+          My name is Lexus Drumgold, but most people call me Lex. As both a UI/UX designer and JavaScript developer, I'm
+          dedicated to crafting superior digital experiences. I have experience designing client sites and applications
+          using Adobe Creative Suite and Sketch, building custom user interfaces using React (Native too!) and Sass, as
+          well as building and consuming APIs using a combination of Google Firebase and Node.js.
+          <br><br>
+          Over the years, I've worked on a plethora of projects, in which I not only contributed to brand identity, but
+          increased
+          brand value as well. When I'm not designing or developing, I participate in design critiques and code reviews
+          to assess
+          both contribution to project goals and adherence to industry standards as well.
         </p>
 
         <!-- horizontal rule -->
@@ -110,10 +106,11 @@
           <li class='accordion-section'>
             <ul class='accordion-section-items'>
               <span class='accordion-section-title'>
-                Preprocessors, Libraries, Frameworks, & Build Tools
+                Web & Mobile Technologies
               </span>
               <li class='accordion-section-item'>
-                Sass, JQuery, React.js, React Native/Expo, Gulp, Preact, Express, Node.js
+                Sass, JQuery, React.js, React Native/Expo, Gulp, Preact,
+                Express, Node.js, FeathersJS
               </li>
             </ul>
           </li>
@@ -137,7 +134,7 @@
                 Other Tools
               </span>
               <li class='accordion-section-item'>
-                Git, Google Firebase
+                Git, Gitlab, Google Firebase
               </li>
             </ul>
           </li>
@@ -198,11 +195,11 @@
                     <br>
                     <p>
                       Schedule an appointment:
-                      <a href="/scheduling?type=remote" target="_blank">
+                      <a href='/scheduling?type=remote' target='_blank'>
                         Remote
                       </a>
                       |
-                      <a href="/scheduling?type=onsite" target="_blank">
+                      <a href='/scheduling?type=onsite' target='_blank'>
                         Onsite
                       </a>
                     </p>
@@ -240,8 +237,9 @@
             Want to know more?
           </p>
           <p>
-            To view my projects, visit my <a href='/workspace' target='_blank'>public workspace.</a> To get in touch
-            with me, <a href='/email'>shoot me an email.</a>
+            To learn more about me, visit my <a href='/workspace' target='_blank'>public workspace.</a> To view my
+            projects, <a href='/projects' target='_blank'>click here.</a> To get
+            in touch with me, <a href='/email'>shoot me an email.</a>
           </p>
           <p>
             <span>Note:</span> Online payments are processed via PayPal.
@@ -256,6 +254,9 @@
   <!-- footer -->
   <footer>
     <div class='container'>
+      <a class='footer-link' href='/projects' target='_blank'>
+        Projects
+      </a>
       <a class='footer-link' href='/workspace' target='_blank'>
         Workspace
       </a>
@@ -280,12 +281,11 @@
     </div>
   </footer>
 
-
   <!-- github button script from https://buttons.github.io/ -->
   <script async defer src='https://buttons.github.io/buttons.js'></script>
 
   <!-- main js file -->
-  <script src='main.babel.js'></script>
+  <script type='module' src='main.babel.js'></script>
 </body>
 
 </html>

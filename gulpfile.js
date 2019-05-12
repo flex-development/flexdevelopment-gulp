@@ -32,7 +32,7 @@ gulp.task('watch', () =>
   gulp
     .watch([
       './src/sass/**/*.sass',
-      './src/scripts/**/*.js',
+      'src/scripts/**/*.js',
       './public/index.html'
     ])
     .on('change', gulp.series('sass', 'babel', browserSync.reload))
@@ -49,4 +49,4 @@ gulp.task('server', () => {
 });
 
 gulp.task('build', gulp.parallel('sass', 'babel', done => done()));
-gulp.task('default', gulp.parallel('watch', 'server', done => done()));
+gulp.task('default', gulp.parallel('watch', 'babel', 'server', done => done()));

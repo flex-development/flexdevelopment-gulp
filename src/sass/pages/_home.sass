@@ -47,13 +47,14 @@ main
     font-size: 1.625em
 
 .subheading
+  color: $accent
   font:
-    size: 1.375em
-    weight: 400
+    size: 1.25em
+    weight: 600
   margin: 0 0 1em 0
 
-  @media all and (max-width: breakpoint(med))
-    font-size: 1.25em
+  span
+    color: rgba($dark, 0.5)
 
   @media all and (max-width: breakpoint(small))
     font-size: 0.975em
