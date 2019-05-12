@@ -13,6 +13,16 @@
           "type": 301
         },
         {
+          "source": "/projects",
+          "destination": "https://www.notion.so/da00a87bd2f34e8ab439a5234c07042e?v=2e4ed54b005b4cc9bf763d72fdfbdfa1",
+          "type": 301
+        },
+        {
+          "source": "/resume",
+          "destination": "https://firebasestorage.googleapis.com/v0/b/flexdevelopmentllc.appspot.com/o/assets%2Flexusdrumgold-resume.pdf?alt=media&token=bdae3322-5d0a-4918-af29-0fa9520e621d",
+          "type": 301
+        },
+        {
           "source": "/email",
           "destination": "mailto:lex@lexusdrumgold.design",
           "type": 301
@@ -64,6 +74,16 @@
         {
           "source": "/workspace",
           "destination": "https://www.notion.so/flexdevelopment/Lexus-Drumgold-Flex-Development-9b431c12171547b1ba1516ed3b7d45f5",
+          "type": 301
+        },
+        {
+          "source": "/projects",
+          "destination": "https://www.notion.so/da00a87bd2f34e8ab439a5234c07042e?v=2e4ed54b005b4cc9bf763d72fdfbdfa1",
+          "type": 301
+        },
+        {
+          "source": "/resume",
+          "destination": "https://firebasestorage.googleapis.com/v0/b/flexdevelopmentllc.appspot.com/o/assets%2Flexusdrumgold-resume.pdf?alt=media&token=bdae3322-5d0a-4918-af29-0fa9520e621d",
           "type": 301
         },
         {
