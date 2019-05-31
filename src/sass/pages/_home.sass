@@ -7,6 +7,9 @@ main
     height: 100%
     margin: 0 auto
 
+    > .container
+      height: auto
+
     @media all and (max-width: breakpoint(med))
       +flex(column, flex-start, flex-start)
 
@@ -33,25 +36,24 @@ main
       width: 17.5%
 
     @media all and (max-width: breakpoint(small))
-      width: 20%
+      width: 22.5%
 
 .heading
   font-size: 2em
-  font-weight: 600
+  font-weight: 700
   margin: 0 0 0.25em 0
 
   @media all and (min-width: 90.0625em)
     font-size: 2.25em
 
   @media all and (max-width: breakpoint(med))
-    font-size: 1.625em
+    font-size: 1.5em
 
 .subheading
   color: $accent
-  font:
-    size: 1.25em
-    weight: 600
-  margin: 0 0 1em 0
+  font-size: 1.25rem
+    weight: 500
+  margin: 0
 
   span
     color: rgba($dark, 0.5)
@@ -60,12 +62,10 @@ main
     font-size: 0.975em
 
 .blurb
-  font:
-    size: 1.0625em
-    weight: 200
+  font-weight: 200
 
-  @media all and (max-width: breakpoint(med))
-    font-size: 0.95em
+  @media all and (max-width: breakpoint(small))
+    font-size: 0.875rem
 
 .horizontalrule
   background-color: rgba($dark, 0.1)
@@ -73,32 +73,19 @@ main
   width: 100%
 
 .get-to-know-me
+  > .section-title
+    margin-bottom: 0.375em
+
   &.dark
     p:nth-of-type(2)
       color: $white
 
   p
-    font-size: 0.95em
     margin: 0
-
-    @media all and (max-width: breakpoint(med))
-      font-size: 0.95em !important
-
-    @media all and (max-width: breakpoint(small))
-      font-size: 0.9em !important
-
-    &:first-of-type
-      font-size: 1.0625em
-
-      @media all and (min-width: 90.0625em)
-        font-size: 1.25em
 
     &:nth-of-type(2),
     &:nth-of-type(3)
       color: $black
-
-      @media all and (min-width: 90.0625em)
-        font-size: 1.125em
 
     &:nth-of-type(3)
       margin-top: 0.5em

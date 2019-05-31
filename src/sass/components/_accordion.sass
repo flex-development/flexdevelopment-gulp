@@ -10,44 +10,24 @@
 .accordion-section-title
   font-weight: 600
 
-  @media all and (min-width: 90.0625em)
-    font-size: 1.125em
-
-  @media all and (max-width: breakpoint(med))
-    font-size: 0.95em
-
 .accordion-section-item
   margin: 0.25em 0
-
-  @media all and (min-width: 90.0625em)
-    font-size: 1.125em
-
-  @media all and (max-width: breakpoint(med))
-    font-size: 0.85em
-
-  @media all and (max-width: breakpoint(small))
-    font-size: 0.95em
 
   > span
     font-weight: 600
 
   > ol
-    padding-left: 1.5em
+    @extend %list
 
-    li
-      font:
-        weight: 300
-        size: 0.95em
-      list-style: ordered
+.item-title
+  font-weight: 600 !important
 
-      @media all and (min-width: 90.0625em)
-        font-size: 1em
+.item-content
+  > p
+    margin: 0.325em 0
 
-      @media all and (max-width: breakpoint(med))
-        font-size: 0.975em
+    span
+      font-weight: 500 !important
 
-      span
-        font-weight: 600
-
-        &:first-of-type
-          font-weight: 500
+  > ol
+    @extend %list

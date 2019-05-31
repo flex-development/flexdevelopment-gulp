@@ -13,13 +13,13 @@
           "type": 301
         },
         {
-          "source": "/projects",
+          "source": "/portfolio",
           "destination": "https://www.notion.so/da00a87bd2f34e8ab439a5234c07042e?v=2e4ed54b005b4cc9bf763d72fdfbdfa1",
           "type": 301
         },
         {
           "source": "/resume",
-          "destination": "https://firebasestorage.googleapis.com/v0/b/flexdevelopmentllc.appspot.com/o/assets%2Flexusdrumgold-resume.pdf?alt=media&token=bdae3322-5d0a-4918-af29-0fa9520e621d",
+          "destination": "https://firebasestorage.googleapis.com/v0/b/flexdevelopmentllc.appspot.com/o/assets%2Flexusdrumgold-resume.pdf?alt=media&token=ba83c988-276e-4482-8c66-b7a4c19c7ecb",
           "type": 301
         },
         {
@@ -77,33 +77,18 @@
           "type": 301
         },
         {
-          "source": "/projects",
+          "source": "/portfolio",
           "destination": "https://www.notion.so/da00a87bd2f34e8ab439a5234c07042e?v=2e4ed54b005b4cc9bf763d72fdfbdfa1",
           "type": 301
         },
         {
           "source": "/resume",
-          "destination": "https://firebasestorage.googleapis.com/v0/b/flexdevelopmentllc.appspot.com/o/assets%2Flexusdrumgold-resume.pdf?alt=media&token=bdae3322-5d0a-4918-af29-0fa9520e621d",
+          "destination": "https://firebasestorage.googleapis.com/v0/b/flexdevelopmentllc.appspot.com/o/assets%2Flexusdrumgold-resume.pdf?alt=media&token=ba83c988-276e-4482-8c66-b7a4c19c7ecb",
           "type": 301
         },
         {
           "source": "/email",
           "destination": "mailto:lex@lexusdrumgold.design",
-          "type": 301
-        },
-        {
-          "source": "/scheduling?type=onsite",
-          "destination": "https://calendly.com/flexdevelopment/onsite",
-          "type": 301
-        },
-        {
-          "source": "/scheduling?type=remote",
-          "destination": "https://calendly.com/flexdevelopment/remote",
-          "type": 301
-        },
-        {
-          "source": "/scheduling",
-          "destination": "https://calendly.com/flexdevelopment/",
           "type": 301
         },
         {
