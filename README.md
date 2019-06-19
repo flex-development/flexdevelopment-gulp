@@ -49,7 +49,7 @@ Follow the steps below to get your development enviroment set up.
 1.  Pull the repo. Open the terminal and and run the following:
 
     ```
-    git clone https://github.com/flex-development/flexdevelopment-gulp.git
+    git clone https://github.com/flex-development/landing.git
     ```
 
 2.  After cloning the repo, open the project. In the project directory, run the following command:
