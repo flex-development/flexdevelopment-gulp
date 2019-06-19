@@ -1,13 +1,13 @@
 {
-  "name": "@flexdevelopment/flexdevelopment-gulp",
+  "name": "@flexdevelopment/landing",
   "description": "Landing page for Lexus Drumgold, owner of Flex Development, a web and mobile design and development company. Hi! Lex here. My name is Lexus Drumgold, but most people call me Lex. As both a designer and developer, I use industry standard techniques and practices to implement creative web and mobile solutions.",
   "version": "1.5.0",
   "bugs": {
-    "url": "https://github.com/lexusdrumgold/flexdevelopment-gulp/issues"
+    "url": "https://github.com/flex-development/landing/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lexusdrumgold/flexdevelopment-gulp"
+    "url": "https://github.com/flex-development/landing"
   },
   "scripts": {
     "dev": "gulp",
