@@ -8,13 +8,18 @@
       ],
       "redirects": [
         {
+          "source": "/",
+          "destination": "https://www.notion.so/flexdevelopment/Flex-Development-LLC-9b431c12171547b1ba1516ed3b7d45f5",
+          "type": 301
+        },
+        {
           "source": "/workspace",
-          "destination": "https://www.notion.so/flexdevelopment/Lexus-Drumgold-Flex-Development-9b431c12171547b1ba1516ed3b7d45f5",
+          "destination": "https://www.notion.so/flexdevelopment/Flex-Development-LLC-9b431c12171547b1ba1516ed3b7d45f5",
           "type": 301
         },
         {
           "source": "/portfolio",
-          "destination": "https://www.notion.so/da00a87bd2f34e8ab439a5234c07042e?v=2e4ed54b005b4cc9bf763d72fdfbdfa1",
+          "destination": "https://www.notion.so/flexdevelopment/Projects-0f957f2edf1d431097e4c23baa14dd9f",
           "type": 301
         },
         {
@@ -23,23 +28,8 @@
           "type": 301
         },
         {
-          "source": "/email",
+          "source": "/contact",
           "destination": "mailto:lex@lexusdrumgold.design",
-          "type": 301
-        },
-        {
-          "source": "/scheduling?type=onsite",
-          "destination": "https://calendly.com/flexdevelopment/onsite",
-          "type": 301
-        },
-        {
-          "source": "/scheduling?type=remote",
-          "destination": "https://calendly.com/flexdevelopment/remote",
-          "type": 301
-        },
-        {
-          "source": "/scheduling",
-          "destination": "https://calendly.com/flexdevelopment/",
           "type": 301
         },
         {
@@ -72,13 +62,18 @@
       ],
       "redirects": [
         {
+          "source": "/",
+          "destination": "https://www.notion.so/flexdevelopment/Flex-Development-LLC-9b431c12171547b1ba1516ed3b7d45f5",
+          "type": 301
+        },
+        {
           "source": "/workspace",
-          "destination": "https://www.notion.so/flexdevelopment/Lexus-Drumgold-Flex-Development-9b431c12171547b1ba1516ed3b7d45f5",
+          "destination": "https://www.notion.so/flexdevelopment/Flex-Development-LLC-9b431c12171547b1ba1516ed3b7d45f5",
           "type": 301
         },
         {
           "source": "/portfolio",
-          "destination": "https://www.notion.so/da00a87bd2f34e8ab439a5234c07042e?v=2e4ed54b005b4cc9bf763d72fdfbdfa1",
+          "destination": "https://www.notion.so/flexdevelopment/Projects-0f957f2edf1d431097e4c23baa14dd9f",
           "type": 301
         },
         {
@@ -87,7 +82,7 @@
           "type": 301
         },
         {
-          "source": "/email",
+          "source": "/contact",
           "destination": "mailto:lex@lexusdrumgold.design",
           "type": 301
         },
