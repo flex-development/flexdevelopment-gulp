@@ -3,9 +3,6 @@
     {
       "target": "staging",
       "public": "public",
-      "predeploy": [
-        "npm run build"
-      ],
       "redirects": [
         {
           "source": "/",
@@ -13,33 +10,13 @@
           "type": 301
         },
         {
-          "source": "/workspace",
-          "destination": "https://www.notion.so/flexdevelopment/Flex-Development-LLC-9b431c12171547b1ba1516ed3b7d45f5",
-          "type": 301
-        },
-        {
-          "source": "/portfolio",
-          "destination": "https://www.notion.so/flexdevelopment/Projects-0f957f2edf1d431097e4c23baa14dd9f",
-          "type": 301
-        },
-        {
-          "source": "/resume",
-          "destination": "https://firebasestorage.googleapis.com/v0/b/flexdevelopmentllc.appspot.com/o/assets%2Flexusdrumgold-resume.pdf?alt=media&token=ba83c988-276e-4482-8c66-b7a4c19c7ecb",
+          "source": "/business-card",
+          "destination": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/178198a7-98e8-4b3c-85cb-e226fc15acff/drumgold-business-card.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45MT42DUJB%2F20190724%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20190724T183936Z&X-Amz-Expires=86400&X-Amz-Security-Token=AgoJb3JpZ2luX2VjEIr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGmbfFDbnOOQzNOctw6q56elLrS8y1mxXGurBxWn94D7AiEAtPJm%2BxiG8He9P90LEorT8SeUJQgtbPW0Zz2QocMmeEgq4wMI8%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwyNzQ1NjcxNDkzNzAiDH2HAiavBqz8P%2FWtfyq3A3XnfNDb%2B8Ja0ekbOqjJ1CWepgemImQDczYs5mhop9Oy6697jNcqXAxM1adBCVl9XVIp0VrL%2BHMuyAO7aH0cfzp6ss%2Fvt1hdrXe4%2FURCukwwBrN5IxA%2BXWkB%2BLe2%2FdRzxrsKF8s2dBdx5PSRIUmExxpLbJ02eABMq8ZxPFsVgVnYgvgsV%2F%2FUrgdxC3zy8dFJ8qvyPzlYBmvv5TLiGa6fsS21D03XXx8NPfDVJUDZVF2zQFNZSL2%2B%2BqTBD5lF1KtlVtEwvaPpUSrNw4ySdNMf92DMuox7zP1SLouc2mi6wE7jYYJceoGCdmcnu%2BDSwgxhbJ9qmVgeFXVcPomhV5xRE%2FPDrZg%2Fps5eSQmZrfTl3vxpYpxEDt%2FN2EvrZhZBXQfTyji1eXkcIauOtcCmpJDo9oJ5mElPnUCLK%2FqWAKSBbcW4yS%2FSjZojglTHmItSb%2Bzm4sjcQDXmBgwOHYiyyB1%2FF8VGYOaM9hI2hoRRBcq%2BCDRDbwnq2s7aHXxxXWBR2OVnLXPs%2FDhnipd9fxoWXBRMRZvnfj1UjWsMLEml1h0CwhRb7coWbDRXltjM56e%2FzfNX%2Bg9kdFx%2Fpl0w9r7i6QU6tAFjewuT5Yfj7YZW80eWkaHpTqHwHE9NpmSpHshWxlKYr30p3X3AMV%2FUzgc8pJyhjD6valmoZAfD3G6SVfm9KOXi%2BBkMKU8mkEdvdJXz7TDxQwHCJxrQXoaFiQXZQcTzGsV4GHMKD7XX1t7UFri7N21OR9iBU5WJha3YJm0TUVMrv1SOidhPnk9kOJtqA%2BjPJaDVsVbXqxoXjy60urYLmCNrEzqKco%2FjCoAKmp7hRbNUNef%2BKe0%3D&X-Amz-Signature=26ba681bbe3da6b727af19464179913d48d0b9e9d987d73237a2aed96d6ace28&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22business-card.png%22",
           "type": 301
         },
         {
           "source": "/contact",
           "destination": "mailto:lex@lexusdrumgold.design",
-          "type": 301
-        },
-        {
-          "source": "/linkedin",
-          "destination": "https://www.linkedin.com/in/lexusdrumgold/",
-          "type": 301
-        },
-        {
-          "source": "/godaddy",
-          "destination": "https://www.godaddy.pro/flexdevelopment",
           "type": 301
         },
         {
@@ -50,6 +27,36 @@
         {
           "source": "/github",
           "destination": "https://github.com/lexusdrumgold",
+          "type": 301
+        },
+        {
+          "source": "/godaddy",
+          "destination": "https://www.godaddy.pro/flexdevelopment",
+          "type": 301
+        },
+        {
+          "source": "/linkedin",
+          "destination": "https://www.linkedin.com/in/lexusdrumgold/",
+          "type": 301
+        },
+        {
+          "source": "/portfolio",
+          "destination": "https://www.notion.so/flexdevelopment/Portfolio-0f957f2edf1d431097e4c23baa14dd9f",
+          "type": 301
+        },
+        {
+          "source": "/resume",
+          "destination": "https://www.notion.so/flexdevelopment/Resume-25033a964cc445179551de6cc5a5e7da",
+          "type": 301
+        },
+        {
+          "source": "/workspace",
+          "destination": "https://www.notion.so/flexdevelopment/Flex-Development-LLC-9b431c12171547b1ba1516ed3b7d45f5",
+          "type": 301
+        },
+        {
+          "source": "/upwork",
+          "destination": "https://www.upwork.com/o/profiles/users/_~01fabc27bc4764ce7b/",
           "type": 301
         }
       ]
@@ -57,9 +64,6 @@
     {
       "target": "production",
       "public": "public",
-      "predeploy": [
-        "npm run build"
-      ],
       "redirects": [
         {
           "source": "/",
@@ -67,33 +71,13 @@
           "type": 301
         },
         {
-          "source": "/workspace",
-          "destination": "https://www.notion.so/flexdevelopment/Flex-Development-LLC-9b431c12171547b1ba1516ed3b7d45f5",
-          "type": 301
-        },
-        {
-          "source": "/portfolio",
-          "destination": "https://www.notion.so/flexdevelopment/Projects-0f957f2edf1d431097e4c23baa14dd9f",
-          "type": 301
-        },
-        {
-          "source": "/resume",
-          "destination": "https://firebasestorage.googleapis.com/v0/b/flexdevelopmentllc.appspot.com/o/assets%2Flexusdrumgold-resume.pdf?alt=media&token=ba83c988-276e-4482-8c66-b7a4c19c7ecb",
+          "source": "/business-card",
+          "destination": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/178198a7-98e8-4b3c-85cb-e226fc15acff/drumgold-business-card.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45MT42DUJB%2F20190724%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20190724T183936Z&X-Amz-Expires=86400&X-Amz-Security-Token=AgoJb3JpZ2luX2VjEIr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGmbfFDbnOOQzNOctw6q56elLrS8y1mxXGurBxWn94D7AiEAtPJm%2BxiG8He9P90LEorT8SeUJQgtbPW0Zz2QocMmeEgq4wMI8%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwyNzQ1NjcxNDkzNzAiDH2HAiavBqz8P%2FWtfyq3A3XnfNDb%2B8Ja0ekbOqjJ1CWepgemImQDczYs5mhop9Oy6697jNcqXAxM1adBCVl9XVIp0VrL%2BHMuyAO7aH0cfzp6ss%2Fvt1hdrXe4%2FURCukwwBrN5IxA%2BXWkB%2BLe2%2FdRzxrsKF8s2dBdx5PSRIUmExxpLbJ02eABMq8ZxPFsVgVnYgvgsV%2F%2FUrgdxC3zy8dFJ8qvyPzlYBmvv5TLiGa6fsS21D03XXx8NPfDVJUDZVF2zQFNZSL2%2B%2BqTBD5lF1KtlVtEwvaPpUSrNw4ySdNMf92DMuox7zP1SLouc2mi6wE7jYYJceoGCdmcnu%2BDSwgxhbJ9qmVgeFXVcPomhV5xRE%2FPDrZg%2Fps5eSQmZrfTl3vxpYpxEDt%2FN2EvrZhZBXQfTyji1eXkcIauOtcCmpJDo9oJ5mElPnUCLK%2FqWAKSBbcW4yS%2FSjZojglTHmItSb%2Bzm4sjcQDXmBgwOHYiyyB1%2FF8VGYOaM9hI2hoRRBcq%2BCDRDbwnq2s7aHXxxXWBR2OVnLXPs%2FDhnipd9fxoWXBRMRZvnfj1UjWsMLEml1h0CwhRb7coWbDRXltjM56e%2FzfNX%2Bg9kdFx%2Fpl0w9r7i6QU6tAFjewuT5Yfj7YZW80eWkaHpTqHwHE9NpmSpHshWxlKYr30p3X3AMV%2FUzgc8pJyhjD6valmoZAfD3G6SVfm9KOXi%2BBkMKU8mkEdvdJXz7TDxQwHCJxrQXoaFiQXZQcTzGsV4GHMKD7XX1t7UFri7N21OR9iBU5WJha3YJm0TUVMrv1SOidhPnk9kOJtqA%2BjPJaDVsVbXqxoXjy60urYLmCNrEzqKco%2FjCoAKmp7hRbNUNef%2BKe0%3D&X-Amz-Signature=26ba681bbe3da6b727af19464179913d48d0b9e9d987d73237a2aed96d6ace28&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22business-card.png%22",
           "type": 301
         },
         {
           "source": "/contact",
           "destination": "mailto:lex@lexusdrumgold.design",
-          "type": 301
-        },
-        {
-          "source": "/linkedin",
-          "destination": "https://www.linkedin.com/in/lexusdrumgold/",
-          "type": 301
-        },
-        {
-          "source": "/godaddy",
-          "destination": "https://www.godaddy.pro/flexdevelopment",
           "type": 301
         },
         {
@@ -104,6 +88,36 @@
         {
           "source": "/github",
           "destination": "https://github.com/lexusdrumgold",
+          "type": 301
+        },
+        {
+          "source": "/godaddy",
+          "destination": "https://www.godaddy.pro/flexdevelopment",
+          "type": 301
+        },
+        {
+          "source": "/linkedin",
+          "destination": "https://www.linkedin.com/in/lexusdrumgold/",
+          "type": 301
+        },
+        {
+          "source": "/portfolio",
+          "destination": "https://www.notion.so/flexdevelopment/Portfolio-0f957f2edf1d431097e4c23baa14dd9f",
+          "type": 301
+        },
+        {
+          "source": "/resume",
+          "destination": "https://www.notion.so/flexdevelopment/Resume-25033a964cc445179551de6cc5a5e7da",
+          "type": 301
+        },
+        {
+          "source": "/workspace",
+          "destination": "https://www.notion.so/flexdevelopment/Flex-Development-LLC-9b431c12171547b1ba1516ed3b7d45f5",
+          "type": 301
+        },
+        {
+          "source": "/upwork",
+          "destination": "https://www.upwork.com/o/profiles/users/_~01fabc27bc4764ce7b/",
           "type": 301
         }
       ]

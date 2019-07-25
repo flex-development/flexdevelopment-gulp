@@ -6,10 +6,10 @@
     "flexdevelopmentllc": {
       "hosting": {
         "staging": [
-          "staging-fdllc"
+          "flexdevelopmentllc"
         ],
         "production": [
-          "flexdevelopmentllc"
+          "flexpack"
         ]
       }
     }

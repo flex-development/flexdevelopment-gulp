@@ -1,62 +1,30 @@
 {
-  "name": "@flexdevelopment/landing",
-  "description": "Landing page for Lexus Drumgold, owner of Flex Development, a web and mobile design and development company. Hi! Lex here. My name is Lexus Drumgold, but most people call me Lex. As both a designer and developer, I use industry standard techniques and practices to implement creative web and mobile solutions.",
-  "version": "1.5.0",
-  "bugs": {
-    "url": "https://github.com/flex-development/landing/issues"
-  },
+  "name": "@flexdevelopment/flexpack",
+  "description": "Google Firebase project for Flex Development, LLC, a design and development company by Lexus Drumgold.",
+  "version": "2.0.0",
+  "author": "Lexus Drumgold <lex@lexusdrumgold.design> (https://lexusdrumgold.design)",
+  "homepage": "https://lexusdrumgold.design",
   "repository": {
     "type": "git",
-    "url": "https://github.com/flex-development/landing"
+    "url": "https://github.com/flex-development/flexpack"
   },
+  "bugs": {
+    "url": "https://github.com/flex-development/flexpack/issues"
+  },
+  "keywords": [
+    "firebase",
+    "firebase cli",
+    "firebase hosting",
+    "notion"
+  ],
   "scripts": {
-    "dev": "gulp",
-    "lint": "standard src/ --fix",
-    "build": "npm run lint && gulp build",
-    "serve-staging": "npm run build && firebase serve --only hosting:staging",
-    "serve-production": "npm run build && firebase serve --only hosting:production",
+    "staging": "firebase serve --only hosting:staging",
+    "start": "firebase serve --only hosting:production",
     "deploy-staging": "firebase deploy --only hosting:staging",
     "deploy-production": "firebase deploy --only hosting:production",
     "deploy": "npm run deploy-staging && npm run deploy-production"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.0.0",
-    "babel-eslint": "^10.0.1",
-    "babel-plugin-add-module-exports": "^1.0.2",
-    "browser-sync": "^2.24.7",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^4.1.0",
-    "gulp-babel": "^8.0.0-beta.2",
-    "gulp-cssmin": "^0.2.0",
-    "gulp-rename": "^1.2.3",
-    "gulp-sass": "^3.1.0",
-    "standard": "^12.0.1"
-  },
-  "standard": {
-    "parser": "babel-eslint",
-    "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "module"
-    },
-    "rules": {
-      "camelcase": 0
-    },
-    "ignore": [
-      "node_modules/**"
-    ]
-  },
-  "browserslist": {
-    "development": [
-      "last 2 chrome versions",
-      "last 2 firefox versions",
-      "last 2 edge versions"
-    ],
-    "production": [
-      ">1%",
-      "last 4 versions",
-      "Firefox ESR",
-      "not ie < 11"
-    ]
+    "firebase-tools": "^7.2.0"
   }
 }
