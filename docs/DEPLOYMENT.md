@@ -9,7 +9,7 @@ Below you'll find instructions on how to deploy to Firebase.
 
 ## Prerequisites
 
-Follow the [Guide to Contributing](CONTRIBUTING.md) for detailed instructions on
+Follow the [Guide to Contributing](./CONTRIBUTING.md) for detailed instructions on
 development, testing, and making a pull request.
 
 ## Deploy to Firebase
