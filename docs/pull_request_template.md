@@ -1,10 +1,9 @@
 ---
 name: Pull request
 about: Contribute to this project
-title: 'PR - '
-labels: pull request, needs review
-assignees: ''
-
+title: "PR - "
+labels: "pull request", "needs review"
+assignees: ""
 ---
 
 **Pull Request Type:**  `feature` | `issue` | `hotfix` | `release`  
@@ -20,4 +19,4 @@ Add any other context (ex: `*.(model|spec|utilities).js` files or a reference to
 the issue you're working on) or screenshots about the pull request here.  
 
 **Documentation**  
-Add any relevant outside documentation.  
+Add any relevant outside documentation.

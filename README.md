@@ -10,15 +10,15 @@ server environments.
 
 [Getting Started](#getting-started)  
 [Usage](#usage)  
-[Contributing](#contributing)  
-[Deployment](#deployment)  
+[Contributing](docs/CONTRIBUTING.md)  
+[Deployment](docs/DEPLOYMENT.md)  
 [Built With](#built-with)  
 
 ## Getting Started
 
-My name is Lexus Drumgold, but most people call me Lex. As both a UI designer
-and JavaScript developer, I'm dedicated to crafting superior digital
-experiences.
+My name is Lexus Drumgold, but most people call me Lex. As both a Digital
+Product Designer and JavaScript developer, I'm dedicated to crafting superior
+digital experiences.
 
 I got started in 2012 by teaching myself both UI design and development, and now
 have four years of professional experience designing client sites and
@@ -38,20 +38,12 @@ WordPress, and Google Analytics.
 ## Usage
 
 Flexpack is a Google Firebase project that currently redirects the Flex Development
-domains to Flex Development Notion workspace. This is where you'll find information
+domains to the Flex Development Notion workspace. This is where you'll find information
 about starting a project, as well as information about my workflow, tech stack,
 and past experience. You'll find my portfolio projects there as well.
 
 After installing the project dependencies, run `npm start` to mock the
 `production` website.
-
-## Contributing
-
-Please view the [Guide to Contributing](CONTRIBUTING.md).
-
-## Deployment
-
-Please view the [Guide to Deployment](DEPLOYMENT.md).
 
 ## Built With
 

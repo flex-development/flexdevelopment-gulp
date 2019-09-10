@@ -1,9 +1,9 @@
 {
   "name": "@flexdevelopment/flexpack",
-  "description": "Google Firebase project for Flex Development, LLC, a design and development company by Lexus Drumgold.",
+  "description": "Google Firebase project for Flex Development, LLC, a digital product design and development company by Lexus Drumgold.",
   "version": "2.0.0",
   "author": "Lexus Drumgold <lex@lexusdrumgold.design> (https://lexusdrumgold.design)",
-  "homepage": "https://lexusdrumgold.design",
+  "homepage": "https://flexpack.web.app",
   "repository": {
     "type": "git",
     "url": "https://github.com/flex-development/flexpack"
@@ -25,6 +25,6 @@
     "deploy": "npm run deploy-staging && npm run deploy-production"
   },
   "devDependencies": {
-    "firebase-tools": "^7.2.0"
+    "firebase-tools": "^7.3.1"
   }
 }
