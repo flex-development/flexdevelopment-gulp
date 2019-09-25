@@ -21,7 +21,12 @@
         },
         {
           "source": "/flexcard",
-          "destination": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9622e159-1e13-4b83-82d6-c0e8d7ba94ed/flexcard.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45MMH366FO%2F20190802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20190802T135041Z&X-Amz-Expires=86400&X-Amz-Security-Token=AgoJb3JpZ2luX2VjEF0aCXVzLXdlc3QtMiJIMEYCIQCVaSy%2BkQIecQUCiCJjG5iNP3rlVUYV6EEFscfcIC6o7QIhAM%2BmQ%2BrJkvyHq9qxozmEF51P%2FJJeunBPDya4185ppTn3KuMDCNb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMjc0NTY3MTQ5MzcwIgzGLzkJzUBC2JfsrBEqtwOHxcvM9wjaYX9QxpwgCQpQsFAdr68lA1veGS2YjYzYejf8C7Zeqo0pzcWg7pZpUrB3x2csjQ%2FCvmWOZJp0lQNR2E%2FQ7MVdr8Rg1AT0%2FB%2BMjYmSK0IyFM%2FEO%2FdZjzEtVWQYfhucJ8JcCAxF%2F1LgyOxyUGWW9hulgt0r069sqSZCRB%2BndxQ4nskP7fYFKm1kMFBq%2BZKbcE9tiQisniGYi6Fcno8jD6i%2BBIHjuZ0CbjSz8k7ulXyTqcSKZOEIMhcrYwPqB2uvK6%2FmDLlRv8APoAY1oMplnFOVV3dZtyD2ZAkPUxS03GXkcDNJO%2BsaFXiR9i%2Bu%2Bg%2F4aw%2FS8NfJA2wkqye6CuxdfyjCwZrbas1%2FqF9W08oAsaC6wheYbh4a84Z33%2BGctmmzpV1XefWC6EkHTsa0BCGeSvQJaWSSvCJNcWhwnuTKyYv%2Fby4wk%2Fa6P7Atl3PVJKAGpxabba3qQdh1c58G5s9i5RLdaFB18NZIYOkgU8pZglCAeekwfytaw5%2BOKCXjQC2DddcrnYIQpTBavR8plZr9eZDNZvaDoNtW1VASDpRNG75TQ0gvIZ8O2CIz1UYB%2F%2F2blkvRMOnukOoFOrMBqM30kBdGFIw0RACqF9S069HUzXSJtEPPaFVEwfHeYPmuzD7c3jm3kfTQSn%2Fsb%2F62VAr3YmfQW6xqGLR6vQQL4ebHPbF%2Be1l6ElLVJKPJnRGekqV8bJgPxcGDEmlFjKJbp1zYljLM0exKqqez5gtMBUNMoT9jm5gEIgAAJ%2BOyA9lCKPLmzUa4Soq%2F%2B83sy%2B66qHO3YOh1oRlEErybtKBWmVGwJ43flwC%2FDGCcLIRzwTDglM4%3D&X-Amz-Signature=7ec69572ac41e051e59f0504b6fcc89468219a587940417739561fc5ba720267&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22flexcard.png%22",
+          "destination": "https://firebasestorage.googleapis.com/v0/b/flexdevelopmentllc.appspot.com/o/assets%2Fflexcard%2Fflexcard2-front.png?alt=media",
+          "type": 301
+        },
+        {
+          "source": "/flexcard/back",
+          "destination": "https://firebasestorage.googleapis.com/v0/b/flexdevelopmentllc.appspot.com/o/assets%2Fflexcard%2Fflexcard2-back.png?alt=media",
           "type": 301
         },
         {
@@ -87,7 +92,12 @@
         },
         {
           "source": "/flexcard",
-          "destination": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9622e159-1e13-4b83-82d6-c0e8d7ba94ed/flexcard.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45MMH366FO%2F20190802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20190802T135041Z&X-Amz-Expires=86400&X-Amz-Security-Token=AgoJb3JpZ2luX2VjEF0aCXVzLXdlc3QtMiJIMEYCIQCVaSy%2BkQIecQUCiCJjG5iNP3rlVUYV6EEFscfcIC6o7QIhAM%2BmQ%2BrJkvyHq9qxozmEF51P%2FJJeunBPDya4185ppTn3KuMDCNb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMjc0NTY3MTQ5MzcwIgzGLzkJzUBC2JfsrBEqtwOHxcvM9wjaYX9QxpwgCQpQsFAdr68lA1veGS2YjYzYejf8C7Zeqo0pzcWg7pZpUrB3x2csjQ%2FCvmWOZJp0lQNR2E%2FQ7MVdr8Rg1AT0%2FB%2BMjYmSK0IyFM%2FEO%2FdZjzEtVWQYfhucJ8JcCAxF%2F1LgyOxyUGWW9hulgt0r069sqSZCRB%2BndxQ4nskP7fYFKm1kMFBq%2BZKbcE9tiQisniGYi6Fcno8jD6i%2BBIHjuZ0CbjSz8k7ulXyTqcSKZOEIMhcrYwPqB2uvK6%2FmDLlRv8APoAY1oMplnFOVV3dZtyD2ZAkPUxS03GXkcDNJO%2BsaFXiR9i%2Bu%2Bg%2F4aw%2FS8NfJA2wkqye6CuxdfyjCwZrbas1%2FqF9W08oAsaC6wheYbh4a84Z33%2BGctmmzpV1XefWC6EkHTsa0BCGeSvQJaWSSvCJNcWhwnuTKyYv%2Fby4wk%2Fa6P7Atl3PVJKAGpxabba3qQdh1c58G5s9i5RLdaFB18NZIYOkgU8pZglCAeekwfytaw5%2BOKCXjQC2DddcrnYIQpTBavR8plZr9eZDNZvaDoNtW1VASDpRNG75TQ0gvIZ8O2CIz1UYB%2F%2F2blkvRMOnukOoFOrMBqM30kBdGFIw0RACqF9S069HUzXSJtEPPaFVEwfHeYPmuzD7c3jm3kfTQSn%2Fsb%2F62VAr3YmfQW6xqGLR6vQQL4ebHPbF%2Be1l6ElLVJKPJnRGekqV8bJgPxcGDEmlFjKJbp1zYljLM0exKqqez5gtMBUNMoT9jm5gEIgAAJ%2BOyA9lCKPLmzUa4Soq%2F%2B83sy%2B66qHO3YOh1oRlEErybtKBWmVGwJ43flwC%2FDGCcLIRzwTDglM4%3D&X-Amz-Signature=7ec69572ac41e051e59f0504b6fcc89468219a587940417739561fc5ba720267&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22flexcard.png%22",
+          "destination": "https://firebasestorage.googleapis.com/v0/b/flexdevelopmentllc.appspot.com/o/assets%2Fflexcard%2Fflexcard2-front.png?alt=media",
+          "type": 301
+        },
+        {
+          "source": "/flexcard/back",
+          "destination": "https://firebasestorage.googleapis.com/v0/b/flexdevelopmentllc.appspot.com/o/assets%2Fflexcard%2Fflexcard2-back.png?alt=media",
           "type": 301
         },
         {
