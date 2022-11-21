@@ -1,0 +1,86 @@
+{
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.rulers": [
+      {
+        "color": "var(--vscode-editorRuler-foreground)",
+        "column": 120
+      }
+    ],
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "rewrap.wrappingColumn": 120
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[yaml]": {
+    "editor.rulers": [
+      {
+        "color": "var(--vscode-editorRuler-foreground)",
+        "column": 100
+      }
+    ],
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 100,
+    "rewrap.wrappingColumn": 100
+  },
+  "cSpell.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.rulers": [
+    {
+      // microsoft/vscode#166261
+      "color": "var(--vscode-editorRuler-foreground)",
+      "column": 80
+    }
+  ],
+  "emmet.excludeLanguages": [],
+  "emmet.includeLanguages": {
+    "markdown": "html"
+  },
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.enable": true,
+  "eslint.nodePath": "./node_modules/eslint",
+  "eslint.options": {
+    "extensions": ["json", "jsonc", "md", "yml"],
+    "overrideConfigFile": "./.eslintrc.json"
+  },
+  "eslint.validate": ["json", "jsonc", "markdown", "yaml"],
+  "files.associations": {
+    ".markdownlintignore": "ignore",
+    "commit-msg": "shellscript",
+    "pre-commit": "shellscript"
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/yarn.lock": true
+  },
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "markdownlint.ignore": "./.markdownlintignore",
+  "markdown.extension.toc.slugifyMode": "github",
+  "markdown.extension.toc.updateOnSave": false,
+  "prettier.configPath": "./.prettierrc.json",
+  "prettier.enable": true,
+  "prettier.ignorePath": "./.prettierignore",
+  "prettier.prettierPath": "./node_modules/prettier",
+  "prettier.resolveGlobalModules": false,
+  "prettier.useEditorConfig": true,
+  "shellformat.flag": "-ci -fn -i=2 -sr",
+  "vsicons.associations.files": [
+    {
+      "extensions": ["yarnrc.yml"],
+      "format": "svg",
+      "icon": "yarn"
+    }
+  ],
+  "workbench.iconTheme": "vscode-icons",
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow": "/.github/workflows/*.yml"
+  }
+}

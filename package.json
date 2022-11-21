@@ -1,30 +1,52 @@
 {
-  "name": "@flexdevelopment/flexpack",
-  "description": "Google Firebase project for Flex Development, LLC. From design to full stack development, Flex Development meets all of your digital project needs.",
-  "version": "2.0.0",
-  "author": "Lexus Drumgold <lex@lexusdrumgold.design>",
-  "homepage": "https://flexdevelopmentllc.web.app",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/flex-development/flexpack"
+  "name": "@flex-development/flexdevelopment",
+  "description": "Doing the heavy lifting so you don't have to 😉🦾",
+  "version": "0.0.0",
+  "keywords": [],
+  "homepage": "https://flexdevelopment.llc",
+  "repository": "https://github.com/flex-development/flexdevelopment.git",
+  "bugs": "https://github.com/flex-development/flexdevelopment/issues",
+  "author": {
+    "name": "Lexus Drumgold",
+    "url": "https://github.com/unicornware"
   },
-  "bugs": {
-    "url": "https://github.com/flex-development/flexpack/issues"
-  },
-  "keywords": [
-    "firebase",
-    "firebase cli",
-    "firebase hosting",
-    "notion"
-  ],
+  "type": "module",
   "scripts": {
-    "staging": "firebase serve --only hosting:staging",
-    "start": "firebase serve --only hosting:production",
-    "deploy-staging": "firebase deploy --only hosting:staging",
-    "deploy-production": "firebase deploy --only hosting:production",
-    "deploy": "npm run deploy-staging && npm run deploy-production"
+    "check:ci": "yarn dedupe --check && yarn check:format && yarn check:lint && yarn check:spelling",
+    "check:format": "prettier --check .",
+    "check:lint": "eslint --ext json,jsonc,md,yml --max-warnings 0 .",
+    "check:spelling": "cspell lint --color --no-progress --relative $@ \"**\"",
+    "check:upgrades": "yarn upgrade-interactive",
+    "clean:modules": "trash ./.yarn/{cache,*.gz} ./node_modules",
+    "deploy": "firebase deploy --only hosting",
+    "fix:dedupe": "yarn dedupe --strategy=highest",
+    "fix:format": "prettier --cache --write .",
+    "fix:lint": "yarn check:lint --cache --fix",
+    "postinstall": "chmod +x .husky/* && husky install",
+    "start": "firebase emulators:start --only hosting"
   },
   "devDependencies": {
-    "firebase-tools": "^7.3.1"
-  }
+    "@commitlint/cli": "17.2.0",
+    "@commitlint/config-conventional": "17.2.0",
+    "cspell": "6.14.3",
+    "eslint": "8.28.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-jsonc": "2.5.0",
+    "eslint-plugin-markdown": "3.0.0",
+    "eslint-plugin-markdownlint": "0.4.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-yml": "1.2.0",
+    "firebase-tools": "11.16.1",
+    "husky": "8.0.2",
+    "jsonc-eslint-parser": "2.1.0",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "prettier-plugin-sh": "0.12.8",
+    "trash-cli": "5.0.0",
+    "yaml-eslint-parser": "1.1.0"
+  },
+  "engines": {
+    "yarn": "4.0.0-rc.14"
+  },
+  "packageManager": "yarn@4.0.0-rc.14"
 }

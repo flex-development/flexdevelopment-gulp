@@ -1,0 +1,12 @@
+# ESLINT IGNORE
+# https://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories
+
+# DIRECTORIES & FILES
+**/.DS_Store
+.eslintcache
+.yarn/*
+node_modules/*
+yarn.lock
+
+# NEGATED PATTERNS
+!/.*

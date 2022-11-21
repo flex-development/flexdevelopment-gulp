@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "allowCompoundWords": true,
+  "caseSensitive": false,
+  "dictionaries": ["@flex-development/flexdevelopment"],
+  "dictionaryDefinitions": [
+    {
+      "name": "@flex-development/flexdevelopment",
+      "path": "./.dictionary.txt"
+    }
+  ],
+  "enableGlobDot": true,
+  "failFast": false,
+  "flagWords": [],
+  "ignorePaths": [
+    "**/.gitignore",
+    "**/.gitkeep",
+    ".cspell.json",
+    ".eslintignore",
+    ".git/",
+    ".husky/_/",
+    ".markdownlintignore",
+    ".nvmrc",
+    ".prettierignore",
+    ".yarn/",
+    "patches/",
+    "public/",
+    "yarn.lock"
+  ],
+  "ignoreRegExpList": [],
+  "ignoreWords": [],
+  "language": "en-US",
+  "patterns": [],
+  "readonly": true,
+  "useGitignore": true,
+  "usePnP": false,
+  "version": "0.2",
+  "words": ["flexdevelopmentllc"]
+}
