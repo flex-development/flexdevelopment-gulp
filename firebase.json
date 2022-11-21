@@ -1,6 +1,22 @@
 {
   "hosting": {
     "public": "public",
-    "redirects": []
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "https://github.com/flex-development",
+        "type": 301
+      },
+      {
+        "source": "/facebook",
+        "destination": "https://facebook.com/flexdevelopmentllc/",
+        "type": 301
+      },
+      {
+        "source": "/hello",
+        "destination": "mailto:hello@flexdevelopment.llc",
+        "type": 301
+      }
+    ]
   }
 }
